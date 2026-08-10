@@ -38,8 +38,7 @@ async def run(actor_input: dict) -> list[dict]:
             if proxy_config:
                 proxy_url = await proxy_config.new_url()
         except Exception as e:
-            if Actor is not None:
-                await Actor.log.info(f"Proxy config skipped: {e}")
+            print(f"Proxy config skipped: {e}")
 
     import httpx
 
@@ -59,7 +58,7 @@ async def run(actor_input: dict) -> list[dict]:
     if Actor is not None:
         for item in results:
             await Actor.push_data(item)
-        await Actor.log.info(f"Collected {len(results)} items from OffMall")
+        print(f"Collected {len(results)} items from OffMall")
     return results
 
 
