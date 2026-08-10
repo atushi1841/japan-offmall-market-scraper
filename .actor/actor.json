@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-offmall-market-scraper",
+  "title": "Japan OffMall Used Goods Market — Hard Off Official (800+ stores)",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./.actor/INPUT_SCHEMA.json"
+}

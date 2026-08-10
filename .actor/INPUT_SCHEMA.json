@@ -1,0 +1,60 @@
+{
+  "title": "OffMall Japan Used Goods Market — Hard Off Official",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchKeyword": {
+      "title": "Search Keyword",
+      "type": "string",
+      "description": "Keyword to search OffMall (e.g. iPhone, ロレックス, ニンテンドー). Empty + category = category scan.",
+      "editor": "textfield",
+      "prefill": "iPhone"
+    },
+    "category": {
+      "title": "Category",
+      "type": "string",
+      "description": "Category to scan (used when searchKeyword is empty): オーディオ・デジタル家電, テレビ・モニター, カメラ, パソコン・タブレット, スマートフォン・携帯電話, ゲーム機, 時計, 楽器, ブランド品, ホビー・おもちゃ, スポーツ・アウトドア, キッチン・家電, 家具・インテリア",
+      "editor": "select",
+      "enum": [
+        "",
+        "オーディオ・デジタル家電",
+        "テレビ・モニター",
+        "カメラ",
+        "パソコン・タブレット",
+        "スマートフォン・携帯電話",
+        "ゲーム機",
+        "時計",
+        "楽器",
+        "ブランド品",
+        "ホビー・おもちゃ",
+        "スポーツ・アウトドア",
+        "キッチン・家電",
+        "家具・インテリア"
+      ],
+      "prefill": ""
+    },
+    "maxItems": {
+      "title": "Max Items",
+      "type": "integer",
+      "description": "Maximum number of items to collect",
+      "editor": "number",
+      "prefill": 100
+    },
+    "maxPages": {
+      "title": "Max Pages",
+      "type": "integer",
+      "description": "Maximum pages to scrape per source (30 items/page)",
+      "editor": "number",
+      "prefill": 2
+    },
+    "proxyConfiguration": {
+      "title": "Proxy Configuration",
+      "type": "object",
+      "description": "Apify proxy configuration",
+      "editor": "proxy",
+      "default": {"useApifyProxy": true},
+      "prefill": {"useApifyProxy": true}
+    }
+  },
+  "required": []
+}
