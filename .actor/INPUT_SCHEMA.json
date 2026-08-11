@@ -3,6 +3,21 @@
   "type": "object",
   "schemaVersion": 1,
   "properties": {
+    "statsMode": {
+      "title": "Stats Mode",
+      "type": "boolean",
+      "description": "Enable price statistics mode instead of normal item collection",
+      "editor": "checkbox",
+      "default": false,
+      "prefill": false
+    },
+    "statsKeyword": {
+      "title": "Stats Keyword Filter",
+      "type": "string",
+      "description": "Optional title keyword to filter when statsMode is enabled",
+      "editor": "textfield",
+      "prefill": ""
+    },
     "searchKeyword": {
       "title": "Search Keyword",
       "type": "string",
