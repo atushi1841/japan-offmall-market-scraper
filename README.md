@@ -1,5 +1,7 @@
 # Japan OffMall Used Goods Market — Hard Off Official Scraper
 
+[![Apify Store](https://img.shields.io/badge/Apify-Store-blue)](https://apify.com/fruitful_quintessence/japan-offmall-market-scraper)
+
 **Scrape used goods prices from OffMall (オフモール), the official online store of Hard Off (ハードオフ) — Japan's largest reuse chain with 800+ participating stores nationwide.**
 
 One dataset covering Japan's biggest second-hand ecosystem: cameras, watches, musical instruments, luxury brands, smartphones, game consoles, audio gear, and more.
