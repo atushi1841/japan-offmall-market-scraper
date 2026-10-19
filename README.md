@@ -67,3 +67,16 @@ Pay per event — $0.00005/run + $0.002/item.
 - **OffMall (netmall.hardoff.co.jp)**: official Hard Off online store, 800+ participating stores
 - Server-side rendered search pages, robots.txt allows crawling (only /api/, /users/, /statics/ etc. disallowed)
 - Only factual product information (name, price, brand, condition rank) is collected
+
+## MCP Server & Registry
+
+This scraper is also available as an MCP server for AI agents:
+
+- **MCP Registry**: `io.github.atushi1841/japan-offmall-market-mcp`
+- **Apify Store**: https://apify.com/fruitful_quintessence/japan-offmall-market-scraper
+- **Gumroad**: https://atushi5.gumroad.com/l/kutuxe
+
+Install via MCP: add to your MCP config:
+```json
+{"mcpServers": {"japan-offmall-market-mcp": {"command": "python3", "args": ["src/stdio_main.py"]}}}
+```
