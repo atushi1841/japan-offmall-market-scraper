@@ -1,6 +1,6 @@
 {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name": "io.github.atushi1841/atushi1841/japan-offmall-market-mcp",
+    "name": "io.github.atushi1841/japan-offmall-market-mcp",
     "description": "Japan used goods from OffMall (Hard Off) via Apify + Gumroad",
     "repository": {
         "url": "https://github.com/atushi1841/japan-offmall-market-scraper",
@@ -12,7 +12,7 @@
             "registryType": "mcpb",
             "identifier": "https://github.com/atushi1841/japan-offmall-market-scraper/releases/download/v1.0.0/server.mcpb",
             "version": "1.0.0",
-            "fileSha256": "07a921f576e76bdb610cb446ed023918028990c519d071f3f70c5e485d07bcdf",
+            "fileSha256": "PENDING",
             "transport": {
                 "type": "stdio"
             }
