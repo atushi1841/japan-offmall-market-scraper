@@ -80,3 +80,13 @@ Install via MCP: add to your MCP config:
 ```json
 {"mcpServers": {"japan-offmall-market-mcp": {"command": "python3", "args": ["src/stdio_main.py"]}}}
 ```
+
+## Smithery
+
+[![Smithery](https://smithery.ai/server/japan-offmall-market-mcp/badge)](https://smithery.ai/server/japan-offmall-market-mcp)
+
+Install via Smithery:
+
+```bash
+npx @smithery/cli install japan-offmall-market-mcp --client claude
+```
