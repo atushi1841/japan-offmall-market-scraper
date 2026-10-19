@@ -12,7 +12,7 @@
             "registryType": "mcpb",
             "identifier": "https://github.com/atushi1841/japan-offmall-market-scraper/releases/download/v1.0.0/server.mcpb",
             "version": "1.0.0",
-            "fileSha256": "PENDING",
+            "fileSha256": "341afdc0e5cc58d3af8f082691155db7651ca9b1eab891e26c2fc312ff4077ec",
             "transport": {
                 "type": "stdio"
             }
