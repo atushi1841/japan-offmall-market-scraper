@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "japan-offmall-market-mcp": {
+      "name": "Japan OffMall Market MCP",
+      "type": "stdio",
+      "description": "MCP server wrapping japan-offmall-market-scraper Apify actor.",
+      "command": "python3",
+      "args": [
+        "src/stdio_main.py"
+      ],
+      "repo": "https://github.com/atushi1841/japan-offmall-market-scraper"
+    }
+  }
+}
